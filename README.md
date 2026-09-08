@@ -1,0 +1,1 @@
+Định dạng bảng này ra giữa, dòng tiêu đề chữ màu xanh. Mỗi dòng còn lại cho một màu. Khi đưa chuột vào từng dòng thì xuất hiện một màu khác cho từng dòng. Dòng tựa đề cỡ chữ 25. Các dòng còn lại cỡ chữ 14
