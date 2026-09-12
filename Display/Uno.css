@@ -1,0 +1,13 @@
+span{
+    color: rgb(239, 137, 86);
+    font-weight: bold;
+
+}
+span.you{
+    background-color: rgb(212, 240, 126);
+}
+
+span.you:hover{
+    background-image:url('sinhvien.jpg');
+    color: rgb(78, 232, 99);
+}
