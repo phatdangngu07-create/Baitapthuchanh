@@ -1,0 +1,64 @@
+body{
+    margin: 8px;
+    font-family:"Times New Roman", Times, serif;
+    font-size:20px;
+}
+
+main{
+    border: 1px solid  #36c9a3;
+    min-height: 620px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 38px;
+}
+
+.form-grid{
+    display: grid;
+    grid-template-columns: max-content minmax(180px, 290px) max-content minmax(180px, 290px);
+    gap: 18px 10px;
+    align-items: center;
+    margin: 24px 0;
+}
+
+input{
+    box-sizing: border-box;
+    width:100%;
+    padding:4px;
+    font: inherit;
+}
+
+button{
+    padding: 4px 12px;
+    font: inherit;
+    cursor: pointer;
+}
+
+.buttons{
+    display:flex;
+    gap:8px;
+    margin-bottom: 24px;
+
+}
+
+table{
+    border-collapse: collapse;
+    width: min(100%, 1080px);
+}
+
+th, td{
+    border: 1px solid #bbb;
+    padding: 6px 10px;
+    text-align: left;
+}
+
+@media (max-width: 760px) {
+    .form-grid{
+        grid-template-columns: max-content minmax(0, 1fr);
+    }
+
+    table{
+        font-size: 16px;
+    }
+}

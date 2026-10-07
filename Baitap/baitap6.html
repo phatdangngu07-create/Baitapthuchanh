@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New products</title>
+    <link rel="stylesheet" href="baitap6.css">
+    <script src="baitap6.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>New products</h1>
+        <hr>
+
+        <form id="product-form">
+            <div class="form-grid">
+                <label for="product-name"> Product Name:</label>
+                <input type="text" id="product-name" value="Quần âu" required>
+
+                <label for="quantity"> Quantity:</label>
+                <input type="number" id="quantity" min="1" step="1" value="20" required>
+
+                <label for="unit-price">Unit Price:</label>
+                <input type="number" id="unit-price" min="1" step="1" value="400000" required>
+
+                <label for="discount">Discount:</label>
+                <input type="number" id="discount" min="0" max="100" step="1" value="10" required>
+            </div>
+
+            <div class="buttons">
+                <button type="submit">Sell</button>
+                <button type="reset">Cancel</button>
+            </div>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Discount</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody id="product-list"></tbody>
+        </table>
+    </main>
+    
+</body>
+</html>
