@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đèn giao thông</title>
+    <link rel="stylesheet" href="traficlight.css">
+    <script src="traficlight.js" defer></script>
+</head>
+<body>
+    <main class="traffic-light-demo">
+        <div class="controls" aria-label="Điều khiển đèn giao thông">
+            <button type="button" onclick="batDen('green')">green</button>
+            <button type="button" onclick="batDen('yellow')">yellow</button>
+            <button type="button" onclick="batDen('red')">red</button>
+        </div>
+
+        <div class="traffic-light" aria-label="Đèn giao thông">
+            <div class="lamp lamp-red" id="den-red"></div>
+            <div class="lamp lamp-yellow" id="den-yellow"></div>
+            <div class="lamp lamp-green" id="den-green"></div>
+        </div>
+    </main>
+</body>
+</html>
